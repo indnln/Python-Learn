@@ -1,0 +1,17 @@
+# HW1:Health Tool
+# Author: Caesar Wang
+height = raw_input("height\n")
+weight = raw_input("weight\n")
+bmi = float(weight)/float(height)**2
+#print ("Your BMI is: " + bmi)
+#BMI health judge
+if bmi > 40:
+  print("super overheight")
+elif bmi >30:
+  print("very overheight")
+elif bmi >25:
+  print("overheight")
+elif bmi > 18.5:
+  print("normal height")
+else:
+  print("thin")
